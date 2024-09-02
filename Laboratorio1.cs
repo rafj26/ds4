@@ -2,6 +2,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("HOLA MUNDO !");
+        Console.WriteLine("HOLA, MUNDO");
     }
 }
