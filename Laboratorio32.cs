@@ -13,10 +13,10 @@ public class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("Ingrese el primer número (a): ");
-        a = Convert.ToInt32(Console.ReadLine());
+        int a = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Ingrese el segundo número (b): ");
-        b = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
 
         CalculosMatematicos calculos = new CalculosMatematicos();
         resultado = calculos.Calcular(a, b);
